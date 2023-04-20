@@ -1,0 +1,56 @@
+.container {
+    max-width: 240px;
+    display: block;
+    margin-inline: auto;
+    border: 1px solid #000;
+}
+
+button {
+    border: none;
+    width: 54px;
+    height: 54px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0;
+}
+
+button.number {
+    background-color: #485461;
+    color: #fff;
+}
+
+button.operator {
+    background-color: #4357692d;
+    color: #000;
+}
+
+button.special {
+    background-color: #f33d1d;
+    color: #fff;
+}
+
+button:hover,
+button:active {
+    opacity: 0.8;
+}
+
+#value {
+    width: 100%;
+    height: 54px;
+    font-size: 36px;
+    background-color: #fff;
+    color: #000;
+    text-align: right;
+}
+
+#result {
+    width: 100%;
+    height: 36px;
+    font-size: 24px;
+    background-color: #fff;
+    color: #3f3f3f;
+    text-align: right;
+}
